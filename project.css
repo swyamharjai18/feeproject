@@ -1,0 +1,784 @@
+@media only screen and (max-width: 768px) {
+    .navbar {
+        height: auto; /* Adjust height for smaller screens */
+    }
+}
+
+/* Rest of your CSS styles... */
+
+/* Add media queries for other elements as needed */
+
+
+body{
+    padding: 0;
+    margin: 0;
+    width: 1500px;
+    height: 906px;
+    background-color: #fff;
+}
+.navbar{
+    opacity: 0.749;
+    width: 1470px;
+    height: 50px;
+    background-color: #212121;
+    position: relative;
+}
+
+.navbar i{
+    padding: 10px;
+    margin: 3px;
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    font-size: 30px;
+}
+
+.navbar h2{
+    font-size: 33px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 850;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: inline;
+}
+
+.navbar hr{
+    margin-top: -27px;
+}
+
+.navbar .listnav ul{
+    list-style-type: none;
+    display: flex;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: small;
+    align-items: center;
+    margin-top: -45px;
+    margin-left: 250px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navbar .listnav ul li{
+    margin-right: 20px;
+}
+
+.navbar .listnav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.icons{
+    display: flex;
+    margin-left: 970px;
+    margin-top: -44px;
+    text-align: end;
+    justify-content: space-evenly;
+}
+
+.icons i{
+    font-size: 20px;
+}
+
+.searchBtn{
+    border: 1px solid rgb(84, 83, 83);
+    width: 79px;
+    text-align: center;
+    height: 49px;
+    margin-left: 20px;
+    margin-right: -6px;
+    margin-top: -2px;
+}
+
+.image{
+    width: 1500px;
+}
+
+.image img{
+    position: static;
+    margin-top: -159px;
+    width: 1600px;
+    margin-left: -45px;
+}
+
+.image h6{
+    color: #fff;
+}
+
+#h11{
+    position: absolute;
+    font-size: 200px;
+    letter-spacing: -10px;
+    line-height: 147px;
+    text-transform: uppercase;
+    margin-left: 100px;
+    margin-top: 140px;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#h12{
+    position: absolute;
+    font-size: 200px;
+    letter-spacing: -10px;
+    line-height: 300px;
+    text-transform: uppercase;
+    margin-left: 20px;
+    color: #ffffff;
+    margin-top: 208px;
+    font-weight: 700;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.shopping{
+    background-color: #ffffff;
+    width: 1180px;
+    height: 2925px;
+    margin: auto;
+    position: relative;
+    top: -60px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.3), 0 0 40px ;
+    transition: width 2s, height 4s;
+}
+
+.shopBar{
+    display: inline-flex;
+}
+
+.shop1{
+    width: 293.5px;
+    height: 320px;
+    border: 1.5px solid grey;
+}
+
+.shop1 img{
+    font-size: 50px;
+    line-height: 21px;
+    color: #5c5c5c;
+    margin-left: 130px;
+    margin-top: 50px;
+}
+
+.shop1 h6{
+    font-size: 30px;
+    letter-spacing: -1px;
+    line-height: 90px;
+    text-transform: uppercase;
+    color: #0d2e57;
+    margin-top: -0px;
+    font-weight: 50;
+    font-family: fantasy;
+    text-align: center;
+}
+
+.shop1 p{
+    width: 233px;
+    height: 67px;
+    font-size: 13px;
+    line-height: 20px;
+    color: #8a8a8a;
+    font-weight: 300;
+    font-family: system-ui;
+    text-align: center;
+    margin-top: -90px;
+    margin-left: 30px;
+}
+
+.shop1 a{
+    font-size: 13px;
+    line-height: 50px;
+    color: #3753da;
+    font-weight: 600;
+    font-family: monospace;
+    text-decoration: none;
+    margin-left: 110px;
+}
+
+.shopAdd{
+    display: flex;
+}
+
+.phantom{
+    width: 589.5px;
+    height: 600px;
+    border: 1px solid grey;
+    background-color: #dddddd;
+}
+
+.phantom h6{
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #616161;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.phantom h5{
+    font-size: 33px;
+    text-transform: uppercase;
+    color: #0d2e57;
+    font-weight: 500;
+    font-family: fantasy;
+    text-align: center;
+    margin-top: -25px;
+}
+
+#para1{
+    width: 529px;
+    height: 102px;
+    font-size: 18px;
+    transform: translate(30px, -40px);
+    line-height: 20px;
+    color: #8a8a8a;
+    font-weight: 300;
+    font-family: monospace;
+    text-align: center;
+}
+
+.phantom h3{
+    font-size: 52px;
+    line-height: 62px;
+    color: #3954d9;
+    font-weight: 700;
+    transform: translate(-60px, -85px);
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#thousand{
+    font-size: 33px;
+    line-height: 58px;
+    text-decoration: line-through;
+    color: #121212;
+    font-weight: 500;
+    text-shadow: 5px 5px 5px rgb(156, 154, 154);
+    font-family: sans-serif;
+    transform: translate(80px, -199px);
+    text-align: center;
+}
+
+.phantom .boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -220px;
+}
+
+#number{
+    font-size: 38px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #2d2b27;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin-top: 18px;
+    margin-left: 24px;
+}
+
+#dots{
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 16px;
+    color: #121212;
+    font-weight: 400;
+    font-family: sans-serif;
+    margin-top: -53px;
+    text-align: center;
+}
+
+#time{
+    font-size: 11px;
+    letter-spacing: 1px;
+    line-height: 8px;
+    text-transform: uppercase;
+    color: #2d2b27;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: -0.01px;
+}
+
+#shopNow{
+    width: 125px;
+    height: 43px;
+    border-radius: 22px;
+    background-color: #3954d9;
+    font-size: 15px;
+    text-align: center;
+    border: none;
+    margin-left: 230px;
+    margin-top: 20px;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.phantom .box1{
+    width: 90px;
+    height: 105px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    margin: 7px;
+    box-shadow: 10px 10px 10px grey;
+}
+
+.basketimg{
+    width: 589.5px;
+    height: 600px;
+    border: 1px solid grey;
+}
+
+.basketimg img{
+    background-size: cover;
+    width: 590px;
+    height: 600px;
+}
+
+.shoes{
+    display: flex;
+}
+
+.shoe1{
+    width: 293.5px;
+    height: 320px;
+    border: 1.5px solid grey;
+}
+
+#shimg{
+    width: 290px;
+    margin-top: 40px;
+}
+
+#shName{
+    font-size: 25px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #0d2e57;
+    font-weight: 700;
+    font-family: fantasy;
+    margin-left: 9px;
+}
+
+#hundred{
+    font-size: 13px;
+    line-height: 26px;
+    color: #3753da;
+    font-weight: 600;
+    font-family: "Montserrat";
+    margin-top: -50px;
+    margin-left: 10px;
+}
+
+#twoHundred{
+    font-size: 13px;
+    line-height: 26px;
+    color: #878787;
+    font-weight: 600;
+    font-family: "Montserrat";
+    margin-left: 60px;
+    margin-top: -39px;
+    text-decoration: line-through;
+}
+
+.layer4{
+    display: flex;
+}
+
+.running{
+    width: 295px;
+    height: 316px;
+    background-color: #232323;    
+}
+
+.specs{
+    border: 1px solid grey;
+    width: 294px;
+    height: 314px;
+}
+
+.specs img{
+    margin-top: 60px;
+    width: 250px;
+    margin-left: 25px;
+}
+
+.runEat{
+    width: 589px;
+    height: 314px;
+    background-image: url(images/Layer\ 17.png);
+    background-size: cover;
+}
+
+.running h6{
+    font-size: 43px;
+    letter-spacing: -1px;
+    line-height: 61px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 100;
+    font-family: fantasy;
+    width: 250px;
+    transform: translate(23.5px, -50px);
+}
+
+.running p{
+    font-size: 14px;
+    letter-spacing: 4px;
+    line-height: 20px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    transform: translate(25px, -140px);
+    width: 250px;
+}
+
+.layer4 h3{
+    font-size: 53px;
+    letter-spacing: -1px;
+    line-height: 5px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    margin-left: 20px;
+    font-style: italic;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#shopNow2{
+    width: 125px;
+    height: 43px;
+    border-radius: 22px;
+    background-color: #3954d9;
+    font-size: 15px;
+    text-align: center;
+    border: none;
+    margin-left: 20px;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+    position: relative;
+    top: -130px;
+}
+
+#shopNow3{
+    width: 125px;
+    height: 43px;
+    border-radius: 22px;
+    background-color: #65cbff;
+    font-size: 15px;
+    text-align: center;
+    border: none;
+    margin-left: 20px;
+    color: #000000;
+    cursor: pointer;
+    font-weight: bolder;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.layer5{
+    display: flex;
+}
+
+.shoe2{
+    width: 293.5px;
+    height: 320px;
+    border: 1px solid grey;
+}
+
+.shoe2 img{
+    width: 290px;
+    margin-top: 50px;
+}
+
+.layer6{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.egimg{
+    width: 295px;
+    height: 320px;
+}
+
+#img1{
+    background-image: url(images/Image1.png);
+    background-size: cover;
+    background-color: currentcolor;
+}
+
+#img2{
+    background-image: url(images/Image2.png);
+    background-size: cover;
+    background-color: currentcolor;
+}
+
+#img3{
+    background-image: url(images/Image3.png);
+    background-size: cover;
+    background-color: currentcolor;
+}
+
+#img4{
+    background-image: url(images/Image4.png);
+    background-size: cover;
+    background-color: currentcolor;
+}
+
+#img5{
+    background-image: url(images/Image5.png);
+    background-size: cover;
+    background-color: currentcolor;
+}
+
+#img6{
+    background-image: url(images/Image6.png);
+    background-size: cover;
+    background-color: currentcolor;
+}
+
+#img7{
+    background-image: url(images/Image7.png);
+    background-size: cover;
+    background-color: currentcolor;
+}
+
+#img8{
+    background-image: url(images/Image8.png);
+    background-size: cover;
+    background-color: currentcolor;
+}
+
+.layer7{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logos{
+    width: 195px;
+    display: flex;
+    height: 200px;
+    border: 0.5px solid grey;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer{
+    width: 1555px;
+    height: 1126px;
+    background-color: #232323;
+    margin-top: -120px;
+    background-image: url(images/Footer\ BG.png);
+    display: grid;
+    justify-content: space-evenly;
+}
+
+.footerContent{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 1300px;
+    margin-top: 150px;
+    height: 500px;
+    border-bottom: 0.5px solid gray;
+}
+
+.shops{
+    width: auto;
+    height: auto;
+}
+
+.shops h4{
+    font-size: 25px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #3753da;
+    font-weight: 400;
+    font-family: monospace;
+}
+
+.shops ul{
+    display: contents;
+    font-size: 20px;
+    font-family: monospace;
+    line-height: 30px;
+}
+
+.shops ul li{
+    color: #fff;
+    list-style-type: none;
+    text-transform: capitalize;
+}
+
+.information{
+    width: auto;
+    height: auto;
+}
+
+.information h4{
+    font-size: 25px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #3753da;
+    font-weight: 400;
+    font-family: monospace;
+}
+
+.information ul{
+    display: contents;
+    font-size: 20px;
+    font-family: monospace;
+    line-height: 30px;
+}
+
+.information ul li{
+    color: #fff;
+    list-style-type: none;
+    text-transform: capitalize;
+}
+
+.customer{
+    width: auto;
+    height: auto;
+}
+
+.customer h4{
+    font-size: 25px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #3753da;
+    font-weight: 400;
+    font-family: monospace;
+}
+
+.customer ul{
+    display: contents;
+    font-size: 20px;
+    font-family: monospace;
+    line-height: 30px;
+}
+
+.customer ul li{
+    color: #fff;
+    list-style-type: none;
+    text-transform: capitalize;
+}
+
+.stayConnected{
+    width: auto;
+    height: auto;
+}
+
+.stayConnected h4{
+    font-size: 25px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #3753da;
+    font-weight: 400;
+    font-family: monospace;
+}
+.google{
+    width: 45px;
+    background-color: #fff;
+    height: 45px;
+    border-radius: 50%;
+    display: inline-flex;
+    margin-top: -100px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.stayConnected i{
+    font-size: 30px;
+}
+
+.newsletter{
+    width: auto;
+    height: auto;
+    position: relative;
+    top: 50px;
+}
+
+.newsletter h4{
+    font-size: 25px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #3753da;
+    font-weight: 400;
+    font-family: monospace;
+}
+
+.newsletter input{
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    width: 400px;
+    font-size: 25px;
+    position: relative;
+    top: -20px;
+    background: grey;
+}
+
+.newsletter button{
+    width: 125px;
+    height: 43px;
+    border-radius: 22px;
+    background-color: #65cbff;
+    font-size: 15px;
+    text-align: center;
+    border: none;
+    color: #000000;
+    cursor: pointer;
+    display: flex;
+    font-weight: bolder;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.rights{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: -550px;
+    align-items: center;
+}
+
+.reservedRights{
+    width: 500px;
+}
+
+.reservedRights p{
+    opacity: 0.322;
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: monospace;
+}
+
+.footerBrands{
+    opacity: 0.600;
+    font-size: 25px;
+    letter-spacing: 5px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Font Awesome 5 Brands";
+}
